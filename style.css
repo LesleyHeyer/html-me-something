@@ -13,7 +13,7 @@ p {
     color: white;
 }
 
-img {
+.husbandimg {
     width: 15%;
     height: auto;
     display: block;
@@ -30,9 +30,7 @@ img {
     text-align: center;
     top: 45%;
     left: 42.5%;
+    background-color: black;
     
   }
-
-  .chooseNo {
-    background-color: red;
-  }
+ 
