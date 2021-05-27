@@ -6,7 +6,7 @@ h1, h2 {
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: left;
 }
 
@@ -15,11 +15,11 @@ body {
 }
 
 article {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     height: 75px;
-    width: 900px;
+    width: 800px;
     position: center;
 }
 
@@ -33,12 +33,12 @@ footer {
 .main-p{
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 12px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .husbandimg {
@@ -47,29 +47,38 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid rgb(53, 20, 145);
+    border: 3px solid rgb(143, 31, 31);
 }
 
 .button {
     height: 75px;
     width: 225px;
     position: center;
-    border: 3px solid white;
+    border: 3px solid rgb(143, 31, 31);
+    background-color: white;
     text-align: center;
     top: 50%;
-    left: 50%;
+    left: auto;
   }
 
   .container {
     display: flex;
-    align-items: center;
+    position: relative;
     justify-content: center;
     padding: 3%;
+    background-color: rgb(255, 187, 187);
   }
 
   .text {
       font-size: 18px;
       font-family: 'Josefin Sans', sans-serif;
-      color: white;
+      color: rgb(0, 0, 0);
       text-align: left;
+  }
+
+  .titleimg {
+      height: 300px;
+      width: 200px;
+      object-fit: scale-down;
+      position:relative;
   }
