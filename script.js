@@ -30,7 +30,7 @@ function init () {
             paragraph.innerHTML = "No hard feelings! (Silently judging you)"
             }
           } 
-        noButton.addEventListener("click", confirmMarriage);
+        noButton.addEventListener("click", confirmMarriage);   
 
 }
 
