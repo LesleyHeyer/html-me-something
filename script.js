@@ -1,4 +1,6 @@
 function init () {
+    
+    //variable Initialization
     const noOx = document.getElementById("chooseNo");
     const yesOx = document.getElementById("chooseYes");
     const paragraphOx = document.getElementById("husbandChoice");
